@@ -6,7 +6,7 @@ graph TD
     P --> M(main_app)
     P --> U(user_app)
 
-    %% project folder
+
     C --> C1[login_manager.py]
     C --> C2[__init__.py]
     C --> C3[settings.py]
@@ -26,7 +26,6 @@ graph TD
     IMAGES --> WSA4[report.png]
     IMAGES --> WSA5[create.png]
 
-    %% create_app folder
     H --> H1[__init__.py]
     H --> H2[models.py]
     H --> H3[views.py]
@@ -38,7 +37,7 @@ graph TD
     H --> HTEM(templates)
     HTEM --> HTEM1[report.html]
 
-    %% report_app folder
+  
     WER --> WER1[__init__.py]
     WER --> WER2[models.py]
     WER --> WER3[views.py]
@@ -49,7 +48,6 @@ graph TD
     SVO --> OVS1(css)
     OVS1 --> OVSZ[report.css]
 
-    %% main_app folder
     M --> A[app.py]
     M --> I[__init__.py]
     M --> V[views.py]
@@ -66,7 +64,7 @@ graph TD
     IM2 --> PY[python.png]
     T --> MA[main.html]
 
-    %% user_app folder
+   
     U --> VI[views.py]
     U --> AP[app.py]
     U --> MO[models.py]
@@ -80,9 +78,7 @@ graph TD
     ST2 --> CS(css)
     CS --> UC[user.css]
 
-    %% Styling
-    classDef folder fill:#f9f,stroke:#333,stroke-width:2px;
-    classDef file fill:#bbf,stroke:#333,stroke-width:1px;
+ 
 
     class P,C,H,WER,M,U,C5,C6,ST,HTEM,VOD,SVO,T,S,TE,ST2,IMAGES,IM,OVS,OVS1,CER,IM2,J,CS folder;
     class C1,C2,C3,C4,M1,SW,SW1,SW2,IC,WSA,WSA1,WSA2,WSA3,WSA4,WSA5,H1,H2,H3,H4,HTEM1,CREATCSS,WER1,WER2,WER3,VOD1,OVSZ,A,I,V,MA,UK,CH,MTH,E,PH,PY,VI,AP,MO,IN,UH,PHE,SJ,UC file;
