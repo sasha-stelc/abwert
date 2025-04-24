@@ -6,14 +6,13 @@ graph TD
     P --> M(main_app)
     P --> U(user_app)
 
-
     C --> C1[login_manager.py]
     C --> C2[__init__.py]
     C --> C3[settings.py]
     C --> C4[urls.py]
     C --> C5(templates)
-    C --> C6(static)
     C5 --> M1[base.html]
+    C --> C6(static)
     C6 --> SW[background.png]
     C6 --> SW1[book.png]
     C6 --> SW2[style.css]
@@ -37,7 +36,6 @@ graph TD
     H --> HTEM(templates)
     HTEM --> HTEM1[report.html]
 
-  
     WER --> WER1[__init__.py]
     WER --> WER2[models.py]
     WER --> WER3[views.py]
@@ -64,7 +62,6 @@ graph TD
     IM2 --> PY[python.png]
     T --> MA[main.html]
 
-   
     U --> VI[views.py]
     U --> AP[app.py]
     U --> MO[models.py]
@@ -77,10 +74,5 @@ graph TD
     J --> SJ[script.js]
     ST2 --> CS(css)
     CS --> UC[user.css]
-
- 
-
-    class P,C,H,WER,M,U,C5,C6,ST,HTEM,VOD,SVO,T,S,TE,ST2,IMAGES,IM,OVS,OVS1,CER,IM2,J,CS folder;
-    class C1,C2,C3,C4,M1,SW,SW1,SW2,IC,WSA,WSA1,WSA2,WSA3,WSA4,WSA5,H1,H2,H3,H4,HTEM1,CREATCSS,WER1,WER2,WER3,VOD1,OVSZ,A,I,V,MA,UK,CH,MTH,E,PH,PY,VI,AP,MO,IN,UH,PHE,SJ,UC file;
 
 
